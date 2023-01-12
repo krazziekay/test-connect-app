@@ -1,5 +1,5 @@
 // The tunneled URL where your app is running
-const baseUrl = 'https://kmaharjan4.public.atlastunnel.com/';
+const baseUrl = 'https://nodeapp.public.atlastunnel.com/';
 
 
 export const connectAppDescriptor = {
