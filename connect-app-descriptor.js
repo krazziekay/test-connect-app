@@ -29,8 +29,17 @@ export const connectAppDescriptor = {
             name: {
                 value: 'Index'
             },
-            location: 'admin_plugins_menu/gh-addon-admin-section'
+            location: 'admin_plugins_menu/test-connect-app'
         }],
+        webSections: [
+            {
+                key: "test-connect-app",
+                location: "admin_plugins_menu",
+                name: {
+                    value: "Test Connect App"
+                }
+            }
+        ],
         generalPages: [
             {
                 url: '/v1/contact',
