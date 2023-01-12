@@ -3,13 +3,13 @@ const baseUrl = 'https://kmaharjan4.public.atlastunnel.com/';
 
 
 export const connectAppDescriptor = {
-    name: 'Test Connect App',
+    name: 'Test Connect App Node',
     description: 'Atlassian Connect app for Test',
-    key: 'com.test.myapp',
+    key: 'com.sample.connect-node',
     baseUrl,
     vendor: {
-        name: 'My vendor',
-        url: 'https://example.com'
+        name: 'Node connect app sample',
+        url: 'https://github.com/krazziekay/test-connect-app-node'
     },
     authentication: {
         type: 'none'
