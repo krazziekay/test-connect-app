@@ -14,6 +14,7 @@ export const connectAppDescriptor = {
     authentication: {
         type: 'none'
     },
+    scopes: [ "READ" ],
     apiVersion: 1,
     modules: {
         postInstallPage: {
@@ -38,6 +39,20 @@ export const connectAppDescriptor = {
                 name: {
                     value: "Test Connect App"
                 }
+            }
+        ],
+        webhooks: [
+            {
+                event: "jira:issue_created",
+                url: "webhooks/jira-issue_created"
+            },
+            {
+                event: "jira:issue_deleted",
+                url: "webhooks/jira-issue_deleted"
+            },
+            {
+                event: "jira:issue_updated",
+                url: "webhooks/jira-issue_updated"
             }
         ],
         generalPages: [
